@@ -34,7 +34,7 @@ public class Starter : MonoBehaviour
         BundleLoad = Instantiate(BundleLoadPrefab);
         BundleLoad.LoadBundle(BundleURL, AssetName, Version);
 
-        //тут будем читать джсон и его даные записывать в контейнер.
+        //тут будем читать джсон и его даные записывать в контейнер
     }
 
     private void BundleLoadEnd(GameObject obj)
