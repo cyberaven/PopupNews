@@ -35,6 +35,8 @@ public class BundleLoad : MonoBehaviour
             yield return null;
         }
 
+        Debug.Log(www);
+        Debug.Log(www.assetBundle);
         AssetBundle bundle = www.assetBundle;
 
         if(www.error == null)
